@@ -1,0 +1,9 @@
+template IsOver18() {
+    signal input age;
+    signal output isOver;
+
+    isOver <== age >= 18;
+}
+
+component main = IsOver18();
+

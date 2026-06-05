@@ -1,0 +1,6 @@
+// employee => year => issued
+mapping(address => mapping(uint256 => bool)) public appraisalIssued;
+
+// tokenId => appraisal year
+mapping(uint256 => uint256) public appraisalYear;
+

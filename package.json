@@ -1,0 +1,33 @@
+{
+  "name": "zkpayroll",
+  "version": "1.0.0",
+  "description": "zkPayroll frontend + proof demo",
+  "main": "generateInput.js",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@sveltejs/kit": "^2.43.2",
+    "@sveltejs/vite-plugin-svelte": "^6.2.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/node": "^24.10.0",
+    "dotenv": "^17.2.3",
+    "hardhat": "^3.0.15",
+    "snarkjs": "^0.7.5",
+    "svelte": "^5.39.5",
+    "svelte-check": "^4.3.2",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  }
+}
